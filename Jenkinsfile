@@ -4,7 +4,7 @@ pipeline{
 		stage('build'){
 			steps{
 				echo "First Program"
-				bat "javac C:\Users\DOH4KOR\eclipse-workspace\multibranch-pipeline-demo\src\HelloWorld.java"
+				bat "javac C:\\Users\\DOH4KOR\\eclipse-workspace\\multibranch-pipeline-demo\\src\\HelloWorld.java"
 			}
 		}
 	}
