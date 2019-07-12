@@ -7,7 +7,7 @@ pipeline{
 		stage('build'){
 			steps{
 				echo "First Program"
-				echo "%PATH%"
+				sh "javac HelloWorld.java"
 			}
 		}
 	}
