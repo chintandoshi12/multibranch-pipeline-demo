@@ -4,7 +4,7 @@ pipeline{
 		stage('build'){
 			steps{
 				echo "First Program"
-				sh "java -version"
+				bat "javac HelloWorld.java"
 			}
 		}
 	}
