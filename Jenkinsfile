@@ -2,7 +2,7 @@ pipeline{
 	agent any
 	environment {
 
-    		PATH = "C:\\Program Files\\Java\\jdk1.8.0_211\\bin"
+    		PATH = "C:\\WINDOWS\\SYSTEM32"
 
 	}
 	stages{
