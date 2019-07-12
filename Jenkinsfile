@@ -3,6 +3,7 @@ pipeline{
 	environment {
 
     		PATH = "C:\\WINDOWS\\SYSTEM32"
+		PATH = "C:\\Program Files\\Java\\jdk1.8.0_211\\bin"
 
 	}
 	stages{
